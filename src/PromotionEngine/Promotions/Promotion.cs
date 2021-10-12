@@ -16,7 +16,7 @@ namespace PromotionEngine.Promotions
             var key = cart.Keys.FirstOrDefault(x => x.SkuId == skuId);
             item = key;
             count = key == null ? 0 : cart[key];
-            return key == null;
+            return key != null;
         }
     }
 }
