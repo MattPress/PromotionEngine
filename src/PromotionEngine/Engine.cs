@@ -12,7 +12,7 @@ namespace PromotionEngine
             _promotions = promotions;
         }
 
-        public decimal Run(Dictionary<char, int> cart)
+        public IEngineResult Run(Dictionary<Item, int> cart)
         {
             throw new NotImplementedException();
         }
