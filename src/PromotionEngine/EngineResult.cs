@@ -2,7 +2,7 @@
 
 namespace PromotionEngine
 {
-    public class EngineResult : IEngineResult
+    internal class EngineResult : IEngineResult
     {
         private readonly decimal _defaultCartTotal;
 

@@ -6,7 +6,7 @@ namespace PromotionEngine.Tests.Unit.Promotions
 {
     public class ThreeAMultibuyPromotionTests
     {
-        protected ThreeAMultibuyPromotion _sut;
+        internal ThreeAMultibuyPromotion _sut;
 
         [SetUp]
         public virtual void SetUp()

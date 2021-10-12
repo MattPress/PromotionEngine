@@ -2,7 +2,7 @@
 
 namespace PromotionEngine.Promotions
 {
-    public class OneCOneDCombinationPromotion : Promotion
+    internal class OneCOneDCombinationPromotion : Promotion
     {
         public override string Label => nameof(OneCOneDCombinationPromotion);
 

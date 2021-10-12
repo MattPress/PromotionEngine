@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace PromotionEngine.Promotions
 {
-    public abstract class Promotion : IPromotion
+    internal abstract class Promotion : IPromotion
     {
         public abstract string Label { get; }
 

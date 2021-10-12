@@ -6,7 +6,7 @@ namespace PromotionEngine.Tests.Unit.Promotions
 {
     public class OneCOneDCombinationPromotionTests
     {
-        protected OneCOneDCombinationPromotion _sut;
+        internal OneCOneDCombinationPromotion _sut;
 
         [SetUp]
         public virtual void SetUp()

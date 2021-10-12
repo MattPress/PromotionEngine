@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace PromotionEngine.Promotions
 {
-    public class TwoBMultibuyPromotion : Promotion
+    internal class TwoBMultibuyPromotion : Promotion
     {
         public override string Label => nameof(TwoBMultibuyPromotion);
 
